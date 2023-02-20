@@ -1,9 +1,9 @@
 PREFIX =  /usr/local
 
 install:
-	mkdir -p "${PREFIX}"
+	mkdir -p ${PREFIX}/bin
 	chmod 755 rcinit
-	cp -f rcinit "${PREFIX}"/bin
+	cp -f rcinit ${PREFIX}/bin
 
 uninstall:
-	rm -rf "${PREFIX}"/bin/rcinit
+	rm -rf ${PREFIX}/bin/rcinit
