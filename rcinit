@@ -1,7 +1,7 @@
 #!/bin/rc
 
 # Check if PID is 1
-if	(test $pid -eq 1) {
+if (test $pid -eq 1) {
 	/etc/rc.init 
 }
 if not {
@@ -9,6 +9,6 @@ if not {
 }
 
 # Wait forever, so the script doesnt exit by itself
-while (){
+while() {
 	wait $pid
 }
