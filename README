@@ -3,16 +3,12 @@ rcinit
 
 A simple init, written in rc.
 
-All it does is;
-	- check if PID is 1, else exit
-	- run /etc/rc.init
-	- wait forever to avoid script exiting by itself
-
+All it does is basically run /etc/rc.init
 Nothing more, nothing less
 
 Installation
 ------------
 
-Change path or name for `/etc/rc.init` if neccessary.
+If neccessary, change path or name to match your init script
 
 $ make install
