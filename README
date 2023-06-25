@@ -12,3 +12,12 @@ Installation
 If neccessary, change path or name to match your init script
 
 $ make install
+
+
+Similar projects
+----------------
+
+[0] https://github.com/cemkeylan/shinit
+[1] https://git.suckless.org/sinit/
+[2] https://gist.github.com/rofl0r/6168719
+[3] https://github.com/richfelker/minimal-init
