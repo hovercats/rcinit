@@ -1,4 +1,6 @@
-#!/bin/rc -e
+#!/bin/rc
+
+flag e +
 
 # Check if PID is 1
 if (test $pid -eq 1) {
