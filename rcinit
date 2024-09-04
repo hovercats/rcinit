@@ -3,14 +3,8 @@
 flag e +
 
 # Check if PID is 1
-if (test $pid -eq 1) {
-	/etc/rc.init 
-}
-if not {
-	exit 1
-}
+if (test $pid -eq 1) /etc/rc.init 
+if not exit 1
 
 # Wait forever, so the script doesnt exit by itself
-while() {
-	wait $pid
-}
+while() wait $pid
